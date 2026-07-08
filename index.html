@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAWK10 — Fitness Arena | Strength Gym, Ahmedabad</title>
+  <meta name="description" content="HAWK10 Fitness Arena — strength, conditioning and team training at Times Square Grand, Sindhu Bhavan Marg, Ahmedabad. First week free.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23101114'/><text x='50' y='72' font-family='Arial Black' font-size='58' font-weight='900' fill='%23c8102e' text-anchor='middle'>10</text></svg>">
+</head>
+<body>
+
+  <!-- film grain + global vignette -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="global-vignette" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="HAWK10 home">HAWK<span>10</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#programs">Programs</a>
+      <a href="#coaches">Coaches</a>
+      <a href="#pricing">Membership</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="nav__cta" href="#visit">First week free</a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO (scroll-scrub) ============ -->
+    <section class="hero" id="hero" aria-label="HAWK10 — Fitness Arena">
+      <div class="hero__sticky">
+        <div class="media-frame hero__media">
+          <video id="heroVideo" class="hero__video" muted playsinline preload="auto" crossorigin="anonymous">
+            <source src="assets/video/hero-chalk.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="hero__content">
+          <h1 class="hero__title" id="heroTitle">HAWK10</h1>
+          <p class="hero__motto" id="heroMotto">Fitness&nbsp;Arena<span class="dot">.</span></p>
+          <p class="hero__loc" id="heroLoc">Sindhu Bhavan Marg &middot; Ahmedabad</p>
+        </div>
+        <div class="hero__scrollhint" id="scrollHint" aria-hidden="true">
+          <span>Scroll</span>
+          <i></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PHILOSOPHY (pinned, one line per step) ============ -->
+    <section class="philosophy" id="philosophy" aria-label="Philosophy">
+      <div class="philosophy__sticky">
+        <div class="philosophy__counter" aria-hidden="true">
+          <span id="philoIndex">01</span><em>/ 04</em>
+          <div class="philosophy__bar"><div id="philoBar"></div></div>
+        </div>
+        <div class="philosophy__lines">
+          <p class="philosophy__line" data-step="0">No <em>mirrors</em>.</p>
+          <p class="philosophy__line" data-step="1">No machines that do the <em>work</em> for you.</p>
+          <p class="philosophy__line" data-step="2">Chalk on your hands. <em>Weight</em> on the bar.</p>
+          <p class="philosophy__line" data-step="3">This is the <em>arena</em>. Earn it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMS ============ -->
+    <section class="section programs" id="programs" aria-label="Training programs">
+      <div class="section__head reveal">
+        <p class="kicker">Training</p>
+        <h2>Pick your <span class="red">fight</span></h2>
+        <p class="section__sub">Three programs. One standard. Coached sessions built on the barbell, the track and the team.</p>
+      </div>
+      <div class="programs__grid" id="programsGrid">
+        <article class="program reveal" tabindex="0">
+          <div class="media-frame program__media">
+            <video class="program__video" muted loop playsinline preload="metadata">
+              <source src="assets/video/iron-barbell.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="program__body">
+            <span class="program__index">01</span>
+            <h3>Strength</h3>
+            <p>Squat, press, pull, hinge. Percentage-based barbell blocks with a coach on the floor every session.</p>
+            <ul class="program__tags"><li>Barbell</li><li>5 days / wk</li><li>All levels</li></ul>
+            <span class="program__arrow" aria-hidden="true">View program &rarr;</span>
+          </div>
+        </article>
+        <article class="program reveal" tabindex="0">
+          <div class="media-frame program__media">
+            <video class="program__video" muted loop playsinline preload="metadata">
+              <source src="assets/video/grind-track.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="program__body">
+            <span class="program__index">02</span>
+            <h3>Conditioning</h3>
+            <p>High-end cardio, calisthenics and engine work. Dawn track sessions when the city is still asleep.</p>
+            <ul class="program__tags"><li>Engine</li><li>Track + floor</li><li>45 min</li></ul>
+            <span class="program__arrow" aria-hidden="true">View program &rarr;</span>
+          </div>
+        </article>
+        <article class="program reveal" tabindex="0">
+          <div class="media-frame program__media">
+            <video class="program__video" muted loop playsinline preload="metadata">
+              <source src="assets/video/hero-chalk.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="program__body">
+            <span class="program__index">03</span>
+            <h3>Team</h3>
+            <p>Small-group training, Zumba &amp; salsa socials, and squad throwdowns. Suffer together, PR together.</p>
+            <ul class="program__tags"><li>Small group</li><li>Socials</li><li>Sat nights</li></ul>
+            <span class="program__arrow" aria-hidden="true">View program &rarr;</span>
+          </div>
+        </article>
+      </div>
+      <p class="programs__swipehint" aria-hidden="true">Swipe &rarr;</p>
+    </section>
+
+    <!-- ============ COACHES ============ -->
+    <section class="section coaches" id="coaches" aria-label="Coaches">
+      <div class="section__head reveal">
+        <p class="kicker">The corner</p>
+        <h2>Coaches who <span class="red">count reps</span>, not likes</h2>
+      </div>
+      <div class="coaches__grid">
+        <article class="coach reveal" tabindex="0">
+          <div class="coach__portrait" aria-hidden="true"><span>AR</span></div>
+          <div class="coach__info">
+            <h3>Arjun Rathod</h3>
+            <p class="coach__role">Head of Strength</p>
+            <p class="coach__bio">National-level powerlifter. 240 kg deadlift. Zero patience for quarter squats.</p>
+          </div>
+        </article>
+        <article class="coach reveal" tabindex="0">
+          <div class="coach__portrait" aria-hidden="true"><span>KS</span></div>
+          <div class="coach__info">
+            <h3>Kavya Shah</h3>
+            <p class="coach__role">Conditioning &amp; Track</p>
+            <p class="coach__bio">Former 400m sprinter. Runs the 6 AM dawn sessions. Bring lungs.</p>
+          </div>
+        </article>
+        <article class="coach reveal" tabindex="0">
+          <div class="coach__portrait" aria-hidden="true"><span>DP</span></div>
+          <div class="coach__info">
+            <h3>Dev Patel</h3>
+            <p class="coach__role">Team &amp; Calisthenics</p>
+            <p class="coach__bio">Bodyweight purist. Muscle-ups before machines. Leads the Saturday squad.</p>
+          </div>
+        </article>
+        <article class="coach reveal" tabindex="0">
+          <div class="coach__portrait" aria-hidden="true"><span>MI</span></div>
+          <div class="coach__info">
+            <h3>Meera Iyer</h3>
+            <p class="coach__role">Mobility, Yoga &amp; Recovery</p>
+            <p class="coach__bio">Keeps the heavy lifters moving. Yoga, spa and the art of not snapping up.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS STRIP ============ -->
+    <section class="results" id="results" aria-label="Results">
+      <div class="results__grid">
+        <div class="stat reveal">
+          <span class="stat__num" data-count="1200" data-suffix="+">0</span>
+          <span class="stat__label">Members in the arena</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="317" data-suffix="">0</span>
+          <span class="stat__label">PRs this month</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="7" data-suffix="">0</span>
+          <span class="stat__label">Years open</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num" data-count="4.9" data-decimals="1" data-suffix="&#9733;">0</span>
+          <span class="stat__label">Google rating &middot; 123 reviews</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section pricing" id="pricing" aria-label="Membership pricing">
+      <div class="section__head reveal">
+        <p class="kicker">Membership</p>
+        <h2>Pay for coaching. <span class="red">Not chrome.</span></h2>
+        <p class="section__sub">Every plan starts with a full week on us. Walk in, train, then decide.</p>
+      </div>
+      <div class="pricing__grid">
+        <article class="plan reveal">
+          <h3 class="plan__name">Iron</h3>
+          <p class="plan__price"><sup>&#8377;</sup>1,999<span>/mo</span></p>
+          <ul class="plan__list">
+            <li>Open gym access, 6 AM &ndash; 10 PM</li>
+            <li>Strength floor + cardio deck</li>
+            <li>Locker &amp; shower</li>
+            <li>Monthly bodyweight check-in</li>
+          </ul>
+          <a class="plan__cta" href="#visit">Start free week</a>
+        </article>
+        <article class="plan plan--featured reveal">
+          <p class="plan__badge">Most taken</p>
+          <h3 class="plan__name">Forged</h3>
+          <p class="plan__price"><sup>&#8377;</sup>3,499<span>/mo</span></p>
+          <ul class="plan__list">
+            <li>Everything in Iron</li>
+            <li>All coached classes &mdash; strength, conditioning, team</li>
+            <li>Personal programming block</li>
+            <li>Coach check-in every 2 weeks</li>
+            <li>Zumba &amp; salsa socials included</li>
+          </ul>
+          <a class="plan__cta plan__cta--red" href="#visit">First week free &rarr;</a>
+        </article>
+        <article class="plan reveal">
+          <h3 class="plan__name">Ten</h3>
+          <p class="plan__price"><sup>&#8377;</sup>5,999<span>/mo</span></p>
+          <ul class="plan__list">
+            <li>Everything in Forged</li>
+            <li>2&times; weekly 1-on-1 coaching</li>
+            <li>Nutrition &amp; recovery plan</li>
+            <li>Yoga + spa recovery access</li>
+          </ul>
+          <a class="plan__cta" href="#visit">Start free week</a>
+        </article>
+      </div>
+      <p class="pricing__note reveal">No joining fee during your free week. Prices exclusive of GST.</p>
+    </section>
+
+    <!-- ============ VISIT: schedule + map + form ============ -->
+    <section class="section visit" id="visit" aria-label="Schedule, location and signup">
+      <div class="section__head reveal">
+        <p class="kicker">Step in</p>
+        <h2>The arena is <span class="red">open</span></h2>
+      </div>
+
+      <div class="visit__schedule reveal">
+        <h3 class="visit__subhead">Weekly schedule</h3>
+        <div class="table-scroll">
+          <table class="schedule">
+            <thead>
+              <tr><th scope="col">Time</th><th scope="col">Mon &ndash; Fri</th><th scope="col">Saturday</th><th scope="col">Sunday</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">06:00</th><td>Strength</td><td>Strength</td><td rowspan="3" class="schedule__closedcell">Yoga &amp; Mobility<br>08:00 &ndash; 10:00</td></tr>
+              <tr><th scope="row">07:30</th><td>Conditioning &middot; Track</td><td>Team throwdown</td></tr>
+              <tr><th scope="row">09:00</th><td>Pilates</td><td>Calisthenics</td></tr>
+              <tr><th scope="row">17:00</th><td>Calisthenics</td><td>Open arena</td><td rowspan="3" class="schedule__closedcell">Closed from 12:00<br>Rest. Recover.</td></tr>
+              <tr><th scope="row">18:30</th><td>Strength</td><td>Strength</td></tr>
+              <tr><th scope="row">20:00</th><td>Conditioning</td><td>Zumba &amp; Salsa social</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="schedule__hours">Doors: Mon &ndash; Sat 6 AM &ndash; 10 PM &middot; Sun 8 AM &ndash; 12 PM</p>
+      </div>
+
+      <div class="visit__grid">
+        <div class="visit__map reveal">
+          <div class="media-frame map-frame">
+            <iframe title="HAWK10 on Google Maps" src="https://www.google.com/maps?q=HAWK10%2C%20Times%20Square%20Grand%2C%20Sindhu%20Bhavan%20Marg%2C%20Ahmedabad&ll=23.0416191,72.497953&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <address class="visit__address">
+            <strong>HAWK10 &mdash; Fitness Arena</strong><br>
+            A-301, Times Square Grand, Sindhu Bhavan Marg,<br>
+            Thaltej, Ahmedabad, Gujarat 380058<br>
+            <a href="tel:+918733871709">+91 87338 71709</a> &middot;
+            <a href="https://www.instagram.com/hawk.ten/" target="_blank" rel="noopener">@hawk.ten</a>
+          </address>
+        </div>
+
+        <form class="visit__form reveal" id="signupForm" novalidate>
+          <h3 class="visit__subhead">Claim your free week</h3>
+          <div class="field">
+            <label for="fName">Name <span aria-hidden="true">*</span></label>
+            <input id="fName" name="name" type="text" autocomplete="name" required placeholder="Your name">
+            <p class="field__error" id="errName" role="alert" hidden>Enter your name.</p>
+          </div>
+          <div class="field">
+            <label for="fPhone">Phone <span aria-hidden="true">*</span></label>
+            <input id="fPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="+91">
+            <p class="field__error" id="errPhone" role="alert" hidden>Enter a valid phone number.</p>
+          </div>
+          <div class="field">
+            <label for="fGoal">What are you here for?</label>
+            <select id="fGoal" name="goal">
+              <option>Strength</option>
+              <option>Conditioning</option>
+              <option>Team training</option>
+              <option>Pilates / Yoga</option>
+              <option>Not sure yet — show me the arena</option>
+            </select>
+          </div>
+          <button class="visit__submit" type="submit">First week free &mdash; book it</button>
+          <p class="visit__success" id="formSuccess" role="status" hidden>&#10003; You're in. We'll call you to book your first session.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__brand">HAWK<span>10</span> <em>&mdash; Fitness Arena.</em></p>
+    <p class="footer__meta">A-301, Times Square Grand, Sindhu Bhavan Marg, Ahmedabad &middot; <a href="tel:+918733871709">+91 87338 71709</a> &middot; <a href="https://www.instagram.com/hawk.ten/" target="_blank" rel="noopener">Instagram</a></p>
+    <p class="footer__fine">Concept site. Built dark, heavy and honest.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
